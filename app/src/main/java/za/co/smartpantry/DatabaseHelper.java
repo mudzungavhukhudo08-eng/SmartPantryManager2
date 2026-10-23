@@ -40,6 +40,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 {"Egg Fried Rice", "rice, egg, onion, oil, salt", "Cook egg in oil, add onion and cooked rice, season with salt, and stir-fry."},
                 {"Chicken Tomato Stew", "chicken, tomato, onion, salt", "Cook onion, add chicken and brown, then add tomato and salt. Simmer until chicken is fully cooked."},
                 {"Cheese Tomato Toast", "bread, cheese, tomato", "Place sliced tomato and cheese on bread and toast until the cheese melts."},
+                // Database helper manages SQLite persistence for pantry ingredients
                 {"Milk Banana Smoothie", "banana, milk", "Blend banana and milk until smooth. Serve immediately."},
                 {"Potato Onion Hash", "potato, onion, oil, salt", "Dice potatoes and onion. Fry in oil until potatoes are tender and browned; season with salt."},
                 {"Tomato Cheese Pasta", "pasta, tomato, cheese, salt", "Boil pasta. Warm chopped tomato, stir in cheese until melted, then combine with pasta and salt."},
