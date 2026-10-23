@@ -1,30 +1,62 @@
-# Smart Pantry Manager
+\# SmartPantryManager2
 
-A Java Android app prototype for managing pantry ingredients and suggesting recipes only when all listed ingredients are present.
 
-## Technology
-- Java and Android Studio
-- SQLite via `SQLiteOpenHelper`
-- Android ListView with `ArrayAdapter`
-- Local persistent storage
 
-## Open and run
-1. Unzip the project.
-2. Open Android Studio and choose **Open**.
-3. Select the `SmartPantryManager` folder.
-4. Allow Gradle sync to finish. Install Android SDK 35 if Android Studio asks.
-5. Start an Android emulator (API 23 or newer) or connect an Android device with USB debugging enabled.
-6. Press **Run**.
+An Android application to manage pantry ingredients and match available ingredients with possible recipes.
 
-## Features in this starter
-- Pantry create, list, update and delete
-- Quantity, unit and optional expiry date
-- 20 seeded recipes
-- Strict recipe ingredient-name matching with simple plural normalization
-- Recipe detail view
-- Settings preference stored locally
 
-## Important notes
-- The seed recipe logic currently treats each listed recipe ingredient as requiring at least 1 unit, regardless of the unit selected by the user. This is an explicit simplifying assumption and should be discussed in the report.
-- The settings screen stores an expiry-alert preference; it does not schedule notifications.
-- Verify and test the project in your installed Android Studio before submission. Capture your own screenshots, make your own Git commits over the development process, and record a narrated demonstration of the app running.
+
+\## Features
+
+\- Add, edit, and delete pantry ingredients
+
+\- Store ingredients locally using SQLite database
+
+\- Match recipes based on available pantry items
+
+\- View recipe details and required ingredients
+
+\- Persistent storage across app restarts
+
+\- Input validation for ingredients
+
+
+
+\## Tech Stack
+
+\- Language: Java
+
+\- Database: SQLite (SQLiteOpenHelper)
+
+\- IDE: Android Studio
+
+\- Version Control: Git \& GitHub
+
+
+
+\## How to Run
+
+1\. Clone: git clone https://github.com/mudzungavhukhudo08-eng/SmartPantryManager2.git
+
+2\. Open in Android Studio
+
+3\. Sync Gradle
+
+4\. Run on emulator or device (Android 7.0+)
+
+
+
+\## Project Structure
+
+\- app/src/main/java - Source code for pantry and recipe logic
+
+\- app/src/main/res - Layouts and UI
+
+\- DatabaseHelper.java - Manages SQLite operations
+
+
+
+\## Author
+
+mudzungavhukhudo08-eng
+
